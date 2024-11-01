@@ -11,14 +11,13 @@ MANIFEST = {
         {
             "type": "movie",
             "name": "Marathons & Sagas",
-            "id": "marathons",
+            "id": "sagas",
             "extra": [
                 {
                     "name": "Saga Name",
                     "isRequired": True,
                     "options": [
-                        "Lord of the Rings",
-                        "Harry Potter",
+                        "THIS WILL BE DYNAMICALLY UPDATED",
                     ],
                 },
             ],

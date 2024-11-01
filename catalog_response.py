@@ -14,3 +14,7 @@ def catalog_response(media_type, saga_name):
             } for item in SAGAS.get(saga_name, [])
         ]
     }
+
+
+def get_available_saga_names():
+    return list(SAGAS.keys())
