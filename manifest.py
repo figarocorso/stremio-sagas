@@ -1,7 +1,7 @@
 MANIFEST = {
-    "id": "org.stremio.marathons_python",
+    "id": "org.stremio.marathons",
     "version": "1.0.0",
-    "name": "Sagas and Marathons in Python",
+    "name": "Sagas and Marathons",
     "description": "Pack movies into sagas and marathons",
 
     "types": ["movie"],
@@ -10,8 +10,8 @@ MANIFEST = {
     "catalogs": [
         {
             "type": "movie",
-            "name": "Marathons Python",
-            "id": "marathon",
+            "name": "Marathons & Sagas",
+            "id": "marathons",
             "extra": [
                 {
                     "name": "Saga Name",
@@ -19,7 +19,6 @@ MANIFEST = {
                     "options": [
                         "Lord of the Rings",
                         "Harry Potter",
-                        "Arnold Chuache",
                     ],
                 },
             ],

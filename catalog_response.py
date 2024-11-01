@@ -1,20 +1,17 @@
-from catalog import CATALOG
+from sagas import SAGAS
 
 
 POSTER_METAHUB_URL = "https://images.metahub.space/poster/medium/{}/img"
 
-def catalog_response(media_type, media_id):
-    print(f"Catalog - type: {media_type} - id: {media_id}")
-    catalog = CATALOG[media_type] if media_type in CATALOG else []
+def catalog_response(media_type, saga_name):
     metaPreviews = {
         "metas": [
             {
                 "id": item["id"],
                 "type": media_type,
                 "name": item["name"],
-                "genres": item["genres"],
-                "poster": POSTER_METAHUB_URL.format(item["id"])
-            } for item in catalog
+                "poster": POSTER_METAHUB_URL.format(item["id"]),
+            } for item in SAGAS.get(saga_name, [])
         ]
     }
     return metaPreviews
