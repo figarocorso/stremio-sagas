@@ -10,9 +10,6 @@ from catalog import CATALOG
 # This is template we"ll be using to construct URL for the item poster
 METAHUB_URL = "https://images.metahub.space/poster/medium/{}/img"
 
-OPTIONAL_META = ["posterShape", "background", "logo", "videos", "description", "releaseInfo", "imdbRating", "director", "cast",
-                 "dvdRelease", "released", "inTheaters", "certification", "runtime", "language", "country", "awards", "website", "isPeered"]
-
 app = Flask(__name__)
 
 
