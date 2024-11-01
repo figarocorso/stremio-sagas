@@ -4,23 +4,7 @@ from flask import Flask, Response, jsonify, url_for, abort
 from functools import wraps
 
 from manifest import MANIFEST
-
-
-CATALOG = {
-    "movie": [
-        {"id": "tt0032138", "name": "The Wizard of Oz", "genres": [
-            "Adventure", "Family", "Fantasy", "Musical"]},
-        {"id": "tt0017136", "name": "Metropolis",
-         "genres": ["Drama", "Sci-Fi"]},
-        {"id": "tt0051744", "name": "House on Haunted Hill",
-         "genres": ["Horror", "Mystery"]},
-        {"id": "tt1254207", "name": "Big Buck Bunny",
-         "genres": ["Animation", "Short", "Comedy"], },
-        {"id": "tt0031051", "name": "The Arizona Kid",
-         "genres": ["Music", "War", "Western"]},
-        {"id": "tt0137523", "name": "Fight Club", "genres": ["Drama"]}
-    ],
-}
+from catalog import CATALOG
 
 
 # This is template we"ll be using to construct URL for the item poster
@@ -90,5 +74,4 @@ def addon_meta(type, id):
 
 
 if __name__ == "__main__":
-    print(MANIFEST)
     app.run(debug=True)
