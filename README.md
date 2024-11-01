@@ -7,7 +7,7 @@ Stremio catalog addon for themed marathons and sagas
 
 ```
 pip install -r requirements.txt
-python stremio-addon.py
+python stremio_addon.py
 ```
 
 ### How to install
