@@ -49,29 +49,5 @@ def addon_catalog(type, id):
     return respond_with(metaPreviews)
 
 
-@app.route("/meta/<type>/<id>.json")
-def addon_meta(type, id):
-    if type not in MANIFEST["types"]:
-        abort(404)
-
-    def mk_item(item):
-        meta = dict((key, item[key])
-                    for key in item.keys() if key in OPTIONAL_META)
-        meta["id"] = item["id"]
-        meta["type"] = type
-        meta["name"] = item["name"]
-        meta["genres"] = item["genres"]
-        meta["poster"] = METAHUB_URL.format(item["id"])
-        return meta
-
-    meta = {
-        "meta": next((mk_item(item)
-                      for item in CATALOG[type] if item["id"] == id),
-                     None)
-    }
-
-    return respond_with(meta)
-
-
 if __name__ == "__main__":
     app.run(debug=True)
