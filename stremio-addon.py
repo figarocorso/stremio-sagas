@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 
-from flask import Flask, Response, jsonify, url_for, abort
-from functools import wraps
+from flask import Flask, jsonify, abort
 
 from manifest import MANIFEST
 from catalog_response import catalog_response
 
 app = Flask(__name__)
 
+
 def respond_with(data):
-    resp = jsonify(data)
-    resp.headers["Access-Control-Allow-Origin"] = "*"
-    resp.headers["Access-Control-Allow-Headers"] = "*"
-    return resp
+    response = jsonify(data)
+    response.headers["Access-Control-Allow-Origin"] = "*"
+    response.headers["Access-Control-Allow-Headers"] = "*"
+    return response
 
 
 @app.route("/manifest.json")
