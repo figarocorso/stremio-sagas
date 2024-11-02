@@ -33,6 +33,24 @@ SAGAS = {
             "name": "Harry Potter and the Deathly Hallows: Part 2",
         },
     ],
+    "John Wick": [
+        {
+            "id": "tt2911666",
+            "name": "John Wick",
+        },
+        {
+            "id": "tt4425200",
+            "name": "John Wick: Chapter 2",
+        },
+        {
+            "id": "tt6146586",
+            "name": "John Wick: Chapter 3 - Parabellum",
+        },
+        {
+            "id": "tt10366206",
+            "name": "John Wick: Chapter 4",
+        },
+    ],
     "The Lord of the Rings": [
         {
             "id": "tt0120737",
