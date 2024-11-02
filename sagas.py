@@ -1,32 +1,4 @@
 SAGAS = {
-    "Lord of the Rings": [
-        {
-            "id": "tt0120737",
-            "name": "The Fellowship of the Ring",
-        },
-        {
-            "id": "tt0167261",
-            "name": "The Two Towers",
-        },
-        {
-            "id": "tt0167260",
-            "name": "The Return of the King",
-        },
-    ],
-    "The Hobbit": [
-        {
-            "id": "tt0903624",
-            "name": "An Unexpected Journey",
-        },
-        {
-            "id": "tt1170358",
-            "name": "The Desolation of Smaug",
-        },
-        {
-            "id": "tt2310332",
-            "name": "The Battle of the Five Armies",
-        },
-    ],
     "Harry Potter": [
         {
             "id": "tt0241527",
@@ -59,6 +31,72 @@ SAGAS = {
         {
             "id": "tt1201607",
             "name": "Harry Potter and the Deathly Hallows: Part 2",
+        },
+    ],
+    "The Lord of the Rings": [
+        {
+            "id": "tt0120737",
+            "name": "The Fellowship of the Ring",
+        },
+        {
+            "id": "tt0167261",
+            "name": "The Two Towers",
+        },
+        {
+            "id": "tt0167260",
+            "name": "The Return of the King",
+        },
+    ],
+    "The Hobbit": [
+        {
+            "id": "tt0903624",
+            "name": "An Unexpected Journey",
+        },
+        {
+            "id": "tt1170358",
+            "name": "The Desolation of Smaug",
+        },
+        {
+            "id": "tt2310332",
+            "name": "The Battle of the Five Armies",
+        },
+    ],
+    "Star Wars": [
+        {
+            "id": "itt0120915",
+            "name": "Episode I - The Phantom Menace",
+        },
+        {
+            "id": "tt0121765",
+            "name": "Episode II - Attack of the Clones",
+        },
+        {
+            "id": "tt0121766",
+            "name": "Episode III - Revenge of the Sith",
+        },
+        {
+            "id": "tt0076759",
+            "name": "Episode IV - A New Hope",
+        },
+        {
+            "id": "tt0080684",
+            "name": "Episode V - The Empire Strikes Back",
+        },
+        {
+            "id": "tt0086190",
+            "name": "Episode VI - Return of the Jedi",
+        },
+        {
+            "id": "tt2488496",
+            "name": "Episode VII - The Force Awakens",
+        },
+        {
+            "id": "tt2527336",
+            "name": "Episode VIII - The Last Jedi",
+        },
+        {
+            "id": "tt2527338",
+            "name": "Episode IX - The Rise of Skywalker",
         },
     ],
 }
