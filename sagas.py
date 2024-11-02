@@ -61,6 +61,24 @@ SAGAS = {
             "name": "The Battle of the Five Armies",
         },
     ],
+    "The Matrix": [
+        {
+            "id": "tt0133093",
+            "name": "The Matrix",
+        },
+        {
+            "id": "tt0234215",
+            "name": "The Matrix Reloaded",
+        },
+        {
+            "id": "tt0242653",
+            "name": "The Matrix Revolutions",
+        },
+        {
+            "id": "tt10838180",
+            "name": "The Matrix Resurrections",
+        },
+    ],
     "Star Wars": [
         {
             "id": "itt0120915",
