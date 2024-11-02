@@ -3,6 +3,7 @@ MANIFEST = {
     "version": "1.0.0",
     "name": "Sagas and Marathons",
     "description": "Pack movies into sagas and marathons",
+    "logo": "https://www.figarocorso.info/static/images/stremio_sagas.jpg",
 
     "types": ["movie"],
     "resources": ["catalog"],
